@@ -1,0 +1,21 @@
+.headerContainer {
+  padding: 1.25rem 0;
+  background-color: #202024;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.headerContainer img {
+  height: 2rem;
+}
+
+.headerContainer strong {
+  text-align: center;
+  font-weight: 700;
+  line-height: 160%;
+  font-size: 1.6rem;
+  color: var(---gray-100);
+}

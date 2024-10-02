@@ -1,0 +1,80 @@
+.commentContainer {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.commentContainer img {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.comment {
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: var(--gray-700);
+}
+
+.comment header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.author strong {
+  display: block;
+
+  color: var(--gray-100);
+  font-size: 0.875rem;
+  font-weight: bold;
+  line-height: 160%;
+}
+
+.author span {
+  display: block;
+
+  color: var(--gray-400);
+  font-size: 0.75rem;
+  line-height: 160%;
+}
+
+.buttonDelete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+  color: var(--gray-400);
+  transition: color 0.1s;
+}
+
+.buttonDelete:hover {
+  color: var(--red-500);
+}
+
+.text {
+  margin-top: 1rem;
+  
+  color: var(--gray-300);
+  font-size: 0.875rem;
+  line-height: 160%;
+}
+
+@media (max-width: 1024px) {
+  .commentContainer img {
+    width: 2.625rem;
+    height: 2.625rem;
+  }
+}
